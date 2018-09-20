@@ -65,7 +65,7 @@ somePromise()
 
 [Justificativa]
 
-4.2) O que o código a seguir imprime?
+4.2) O que o código a seguir imprime? Justifique.
 ```js
 somePromise()
     .then(() => {
@@ -94,6 +94,10 @@ async function doSomethingAsync(options) {
     return fetch(options.url).then(r => r.json())
 }
 ```
+
+[Resposta]
+
+---
 
 6\) Quais as vantagens de usar ES modules em vez de usar commonjs?
 
