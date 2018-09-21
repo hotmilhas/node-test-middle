@@ -36,7 +36,7 @@
 
 4\)
 
-4.1) Quanto tempo vai demorar para o código a seguir imprimir "finished"? Justifique.
+4.1) Quanto tempo vai demorar para o código a seguir imprimir "finished"? Justifique. (Levando em consideração que `somePromise()` vai retornar uma Promise resolvida)
 ```js
 function doSomething() {
     return new Promise(resolve => {
@@ -65,7 +65,7 @@ somePromise()
 
 [Justificativa]
 
-4.2) O que o código a seguir imprime? Justifique.
+4.2) O que o código a seguir imprime? Justifique. (Levando em consideração que `somePromise()` vai retornar uma Promise resolvida)
 ```js
 somePromise()
     .then(() => {
