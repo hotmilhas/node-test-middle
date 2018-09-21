@@ -97,27 +97,12 @@ async function doSomethingAsync(options) {
 
 ---
 
-5\) Qual a vantagem da segunda função em relação a primeira?
-```js
-function doSomething(options) {
-    return fetch(options.url).then(r => r.json())
-}
-
-async function doSomethingAsync(options) {
-    return fetch(options.url).then(r => r.json())
-}
-```
+5\) Quais as vantagens de usar ES modules em vez de usar commonjs?
 
 [Resposta]
 
 ---
 
-6\) Quais as vantagens de usar ES modules em vez de usar commonjs?
-
-[Resposta]
-
----
-
-7\) Cite um contexto onde a utilização do NodeJS não seria efetiva
+6\) Cite um contexto onde a utilização do NodeJS não seria efetiva
 
 [Resposta]
