@@ -82,6 +82,19 @@ somePromise()
 
 [Justificativa]
 
+4.3\) Quais as vantagens/desvantagens da segunda função em relação a primeira?
+```js
+function doSomething(options) {
+    return fetch(options.url).then(r => r.json())
+}
+
+async function doSomethingAsync(options) {
+    return fetch(options.url).then(r => r.json())
+}
+```
+
+[Resposta]
+
 ---
 
 5\) Qual a vantagem da segunda função em relação a primeira?
