@@ -1,4 +1,4 @@
-# Node
+# Teórico
 
 1\) Qual a diferença do operador `==` para o operador `===` em JavaScript?
 

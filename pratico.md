@@ -1,4 +1,4 @@
-# Node
+# Prático
 
 1\) Adicione o método `.last()` na classe `Array`, que retornará o último item do array, ou `undefined` caso o array estiver vazio
 
