@@ -1,6 +1,6 @@
 # Node
-Versão escolhida: 6.x | 8.x | 10.x
+Versão escolhida: 10
 
 # Database
-SGBD escolhido: MongoDB | MySQL | Postgres | MSSQL | ...
-Versão escolhida: 5.6 | 3.0 | ...
+SGBD escolhido: MongoDB 
+Versão escolhida: 3.6.3
