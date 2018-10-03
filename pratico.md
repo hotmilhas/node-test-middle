@@ -4,7 +4,9 @@
 
 ```js
 // Resposta
-
+Array.prototype.last = function () {
+    return this[this.length - 1];
+}
 
 // Teste/Exemplos
 const array1 = [1,2,3,4,5,6,7,8,9]
@@ -47,7 +49,24 @@ function getTransactions() {
 ```
 
 ```js
-// Resposta
+async function getTransactions() {
+
+    let result = await fetch(BASE_URL + '/api/transacoes')
+    let transactions = await result.json();
+    var transactionsDone = []
+
+    for (var transaction of transactions) {
+        if (transaction.realizada) {
+            transactionsDone.push({
+                id: transaction.id,
+                value: transaction.valor,
+                type: transaction.valor < 0 ? 'transference' : 'deposit',
+            })
+        }
+    }
+
+    return transactionsDone;
+}
 ```
 
 2.2)
@@ -67,7 +86,18 @@ function login(username, password) {
 ```
 
 ```js
-// Resposta
+function login(username, password) {
+    var sql = `
+        SELECT * 
+        FROM users 
+        WHERE username = ? AND password = ?}
+    `;
+
+    var users = connection.query(sql,[ username, password ]);
+
+    return users[0];
+}
+
 ```
 
 ---
