@@ -1,0 +1,14 @@
+{
+  "name": "node-test-middle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "dev": "node_modules/.bin/nodemon index.js",
+    "test": "node_modules/.bin/jest"
+  }
+}
