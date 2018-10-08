@@ -3,6 +3,7 @@
 1\) Qual a diferença do operador `==` para o operador `===` em JavaScript?
 
 O "==" verifica se os dois valores são equivalentes
+
 O "===" verifica se os dois valores são do mesmo tipo e são equivalentes
 
 1.1) Dê 2 exemplos de quando os operadores produziriam resultados diferentes
@@ -79,6 +80,7 @@ somePromise()
 O "finished" foi impresso antes do término da resolução das outras promises. Todo o processamento é assíncrono, e o código que imprime a mensagem não espera as outras promises serem resolvidas para ser executado.  
 
 4.2) O que o código a seguir imprime? Justifique. (Levando em consideração que `somePromise()` vai retornar uma Promise resolvida)
+
 ```js
 somePromise()
     .then(() => {
@@ -96,11 +98,8 @@ uh oh!
 
 O "throw" irá terminar o fluxo de execução. Desconsiderando tudo o que vier depois. Com o "reject" isso não iria ocorrer.
 
-[Resposta]
-
-[Justificativa]
-
 4.3\) Quais as vantagens/desvantagens da segunda função em relação a primeira?
+
 ```js
 function doSomething(options) {
     return fetch(options.url).then(r => r.json())
@@ -116,7 +115,7 @@ Vantagens
 * A utilização dos recursos "async/await" tornam o código mais legível
 * Será possível simular uma execução "síncrona" utilizando "async/await" 
 
-[Resposta]
+Desvantagens
 
 * Os navegadores mais antigos não suportam esses novos recursos nativamente, sendo necessário realizar a "transpilação" do código para prover compatibilidade com esses browsers
 
