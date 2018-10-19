@@ -126,4 +126,4 @@ o que no caso é bem desnecessario, pois se for fazer isso, é melhor deixar sin
 
 6\) Cite um contexto onde a utilização do NodeJS não seria efetiva
 
-[Desconheço.]
+[Resposta]
